@@ -1,0 +1,1 @@
+javascript:(function(){%20%20%20%20%20let%20text%20=%20window.getSelection().toString()%20||%20"";%20%20%20%20%20let%20formattedText%20=%20`__${text.trim()}__%20-%20via%20${document.title}%20${location.href}`;%20%20%20%20%20prompt("Press%20CTRL+C%20or%20CMD+C,%20then%20escape%20and%20paste%20into%20Roam.",%20formattedText);%20})()
